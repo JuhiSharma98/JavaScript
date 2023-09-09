@@ -74,3 +74,36 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log("For string conversion: ");
 console.log(typeof stringNumber);
+
+// **************************OPERATIONS****************************//
+
+let value = 3
+let negValue = -value
+console.log("Neagtive of the value is: ");
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2**7); //power
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+
+let str1 = "hello"
+let str2 = " juhi"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1"+2); //out put will be 12
+console.log(1+3);//output wil be 3
+console.log(1 +6+"9"); // 79
+console.log("1" +6+9); //169
+console.log("1" +6+"9");//169
+
+
+
+let gameCounter = 89
+gameCounter++;
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
