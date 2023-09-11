@@ -32,3 +32,6 @@ const url ="https://juhi.com/juhi%3"
 
 console.log(url.replace('%3', '-')); //to replace the value in the url
 
+console.log(url.includes('sundar'))
+console.log(url.split('//'))
+
