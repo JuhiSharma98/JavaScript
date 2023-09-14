@@ -67,5 +67,32 @@ console.log(Object.entries(tinderUser));//gives keys and values
 console.log(tinderUser.hasOwnProperty('isLoggedin'));
 
 
-/*********************************************************************************************/
+/****************************************************more of objects*****************************************/
+//declaring symbol  in object and add in the key
+const mySym = Symbol("Key1")
 
+const Juser = {
+    name: "juhi",
+    age: 24,
+    [mySym]: "KEY2", //syntax to declare symbol in obj
+    location: "Jaipur",
+    email: "juhi@google.com",
+    isLoggedIn: false,
+    lastloggedin: ["Monday", "Sunday"]
+}
+
+console.log(`Email of user is ${(Juser.email)}`) 
+//console.log(Juser["email"])//this will work as here key is given as string which is actuall input typew of the key in objects
+//console.log(Juser[mySym]) //logging symbol
+
+//change obj value
+Juser.email = "hitesh@chatpt"
+//Object.freeze(Juser) //freezing the values
+//console.log(Juser)
+
+//adding fun in obj
+
+Juser.greeting = function(){
+    console.log(`Hello JS User, ${this.name}`);
+}
+console.log(Juser.greeting());
