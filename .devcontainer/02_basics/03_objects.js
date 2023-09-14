@@ -66,3 +66,6 @@ console.log(Object.entries(tinderUser));//gives keys and values
 
 console.log(tinderUser.hasOwnProperty('isLoggedin'));
 
+
+/*********************************************************************************************/
+
