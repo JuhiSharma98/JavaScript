@@ -10,3 +10,6 @@ for (const key in myObj) {
 }
 
 const programming = ["js", "rb", "py", "java"]
+for (const key in programming) {
+    console.log(key);
+}
